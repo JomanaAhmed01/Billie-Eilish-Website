@@ -1,0 +1,66 @@
+html {
+    background-color: #000000;
+}
+
+/*############################################################### header #######################################################*/
+
+.name {
+    text-align: center;
+}
+
+.menu {
+    color: rgb(115, 238, 115);
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 280px;
+    width: 780px;
+}
+
+.menu li:hover {
+    cursor: pointer;
+    color: #FFFFFF;
+    transition: 0.4s;
+}
+
+.item-5 {
+    color: red;
+}
+
+/*########################################################### sign up ##########################################################*/
+
+.subscribe {
+    color: #7ad75d;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.email-label {
+    color: #FFFFFF;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 330px;
+}
+
+.red-star {
+    color: red;
+}
+
+.email-address {
+    background-color: transparent;
+    color: #b1b1b1;
+    border-top: #000000;
+    border-right: #000000;
+    border-left: #000000;
+    padding-bottom: 10px;
+    padding-left: 330px;
+}
