@@ -21,6 +21,7 @@ html {
     padding-bottom: 20px;
     padding-left: 280px;
     width: 780px;
+    text-decoration: none;
 }
 
 .menu li:hover {
@@ -29,8 +30,29 @@ html {
     transition: 0.4s;
 }
 
+.item-1 {
+    text-decoration: none;
+    color: rgb(115, 238, 115);
+}
+
+.item-2 {
+    text-decoration: none;
+    color: rgb(115, 238, 115);
+}
+
+.item-3 {
+    text-decoration: none;
+    color: rgb(115, 238, 115);
+}
+
+.item-4 {
+    text-decoration: none;
+    color: rgb(115, 238, 115);
+}
+
 .item-5 {
     color: red;
+    text-decoration: none;
 }
 
 .music {
@@ -54,8 +76,18 @@ html {
     padding-bottom: 20px;
 }
 
+.song-1:hover {
+    opacity: 35%;
+    transition: 0.4s;
+}
+
 .song-2 {
     padding-right: 30px;
+}
+
+.song-2:hover {
+    opacity: 35%;
+    transition: 0.4s;
 }
 
 .song-3 {
@@ -64,16 +96,72 @@ html {
     padding-bottom: 20px;
 }
 
+.song-3:hover {
+    opacity: 35%;
+    transition: 0.4s;
+}
+
+.song-4 {
+    padding-right: 30px;
+}
+
+.song-4:hover {
+    opacity: 35%;
+    transition: 0.4s;
+}
+
+.song-5 {
+    padding-left: 60px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.song-5:hover {
+    opacity: 35%;
+    transition: 0.4s;
+}
+
+.song-6 {
+    padding-right: 30px;
+}
+
+.song-6:hover {
+    opacity: 35%;
+    transition: 0.4s;
+}
+
+.song-7 {
+    padding-left: 60px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.song-7:hover {
+    opacity: 35%;
+    transition: 0.4s;
+}
+
+.song-8 {
+    padding-right: 30px;
+}
+
+.song-8:hover {
+    opacity: 35%;
+    transition: 0.4s;
+}
 /*######################################################## social media ####################################################*/
 
 .social-media {
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .fa-facebook {
     color: rgb(115, 238, 115);
-    padding-right: 20px;
+    padding-right: 50px;
     cursor: pointer;
+    font-size: 40px;
 }
 
 .fa-facebook:hover {
@@ -83,8 +171,9 @@ html {
 
 .fa-twitter {
     color: rgb(115, 238, 115);
-    padding-right: 20px;
+    padding-right: 50px;
     cursor: pointer;
+    font-size: 40px;
 }
 
 .fa-twitter:hover {
@@ -94,8 +183,9 @@ html {
 
 .fa-instagram {
     color: rgb(115, 238, 115);
-    padding-right: 20px;
+    padding-right: 50px;
     cursor: pointer;
+    font-size: 40px;
 }
 
 .fa-instagram:hover {
@@ -103,21 +193,11 @@ html {
     color: #FFFFFF;
 }
 
-.fa-spotify {
-    background-color: rgb(115, 238, 115);
-    margin-right: 20px;
-    cursor: pointer;
-}
-
-.fa-spotify:hover {
-    transition: 0.3s;
-    color: #FFFFFF;
-}
-
 .fa-music {
     color: rgb(115, 238, 115);
-    padding-right: 20px;
+    padding-right: 50px;
     cursor: pointer;
+    font-size: 40px;
 }
 
 .fa-music:hover {
@@ -127,8 +207,9 @@ html {
 
 .fa-youtube {
     color: rgb(115, 238, 115);
-    padding-right: 20px;
+    padding-right: 50px;
     cursor: pointer;
+    font-size: 40px;
 }
 
 .fa-youtube:hover {
@@ -140,6 +221,7 @@ html {
 
 .footer {
     border-top: 1px solid rgb(51, 51, 51);
+    text-align: center;
 }
 
 .span-1 {
@@ -148,11 +230,11 @@ html {
     text-align: center;
     position: relative;
     top: 20px;
-    padding-bottom: 20px;
-    padding-right: 20px;
+    padding-right: 40px;
     font-size: 13px;
     cursor: pointer;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .span-1:hover {
@@ -166,10 +248,12 @@ html {
     text-align: center;
     position: relative;
     top: 20px;
+    padding-bottom: 20px;
     padding-right: 20px;
-    font-size: 15px;
+    font-size: 13px;
     cursor: pointer;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .span-2:hover {
@@ -183,10 +267,12 @@ html {
     text-align: center;
     position: relative;
     top: 20px;
+    padding-bottom: 20px;
     padding-right: 20px;
-    font-size: 15px;
+    font-size: 13px;
     cursor: pointer;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .span-3:hover {
@@ -200,10 +286,12 @@ html {
     text-align: center;
     position: relative;
     top: 20px;
+    padding-bottom: 20px;
     padding-right: 20px;
-    font-size: 15px;
+    font-size: 13px;
     cursor: pointer;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .span-4:hover {
@@ -217,10 +305,12 @@ html {
     text-align: center;
     position: relative;
     top: 20px;
+    padding-bottom: 20px;
     padding-right: 20px;
-    font-size: 15px;
+    font-size: 13px;
     cursor: pointer;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .span-5:hover {
@@ -234,10 +324,12 @@ html {
     text-align: center;
     position: relative;
     top: 20px;
+    padding-bottom: 20px;
     padding-right: 20px;
-    font-size: 15px;
+    font-size: 13px;
     cursor: pointer;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .span-6:hover {
