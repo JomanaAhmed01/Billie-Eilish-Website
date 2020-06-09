@@ -2,14 +2,10 @@ html {
     background-color: #000000;
 }
 
-/*############################################################ header ###########################################################*/
+/*############################################################# header ######################################################*/
 
 .name {
     text-align: center;
-}
-
-.name-small {
-    display: none;
 }
 
 .menu {
@@ -19,11 +15,13 @@ html {
     font-weight: bold;
     font-size: 15px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 280px;
+    width: 780px;
+    text-decoration: none;
 }
 
 .menu li:hover {
@@ -33,31 +31,36 @@ html {
 }
 
 .item-1 {
-    position: relative;
-    left: 75px;
+    text-decoration: none;
+    color: rgb(115, 238, 115);
 }
 
 .item-2 {
-    position: relative;
-    right: 25px;
+    text-decoration: none;
+    color: rgb(115, 238, 115);
 }
 
 .item-3 {
-    position: relative;
-    right: 145px;
+    text-decoration: none;
+    color: rgb(115, 238, 115);
 }
 
 .item-4 {
-    position: relative;
-    right: 240px;
+    text-decoration: none;
+    color: rgb(115, 238, 115);
 }
 
 .item-5 {
     color: red;
-    position: relative;
-    right: 350px;
+    text-decoration: none;
 }
 
+.music {
+    color: rgb(115, 238, 115);
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+    font-size: 45px;
+}
 .img {
     text-align: center;
     padding-bottom: 60px;
@@ -1614,14 +1617,15 @@ html {
 .footer {
     border-top: 1px solid rgb(51, 51, 51);
     text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
 }
 
 .span-1 {
     color: grey;
     font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
     text-align: center;
-    position: relative;
-    top: 24px;
     padding-right: 40px;
     font-size: 13px;
     cursor: pointer;
@@ -1638,8 +1642,6 @@ html {
     color: grey;
     font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
     text-align: center;
-    position: relative;
-    top: 12px;
     padding-bottom: 20px;
     padding-right: 20px;
     font-size: 13px;
@@ -1657,8 +1659,6 @@ html {
     color: grey;
     font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
     text-align: center;
-    position: relative;
-    top: 12px;
     padding-bottom: 20px;
     padding-right: 20px;
     font-size: 13px;
@@ -1676,8 +1676,6 @@ html {
     color: grey;
     font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
     text-align: center;
-    position: relative;
-    top: 12px;
     padding-bottom: 20px;
     padding-right: 20px;
     font-size: 13px;
@@ -1695,8 +1693,6 @@ html {
     color: grey;
     font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
     text-align: center;
-    position: relative;
-    top: 12px;
     padding-bottom: 20px;
     padding-right: 20px;
     font-size: 13px;
@@ -1714,8 +1710,6 @@ html {
     color: grey;
     font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
     text-align: center;
-    position: relative;
-    top: 12px;
     padding-bottom: 20px;
     padding-right: 20px;
     font-size: 13px;

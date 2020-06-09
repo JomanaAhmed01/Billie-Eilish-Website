@@ -3,11 +3,11 @@
     <head>
         <title>Signup | Billie Eilish</title>
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <link href="./sign-up.css" rel="stylesheet" type="text/css">
 
         <link rel="icon" href="./img/logo.png" type="image/x-icon">
-
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
@@ -18,12 +18,12 @@
             <p class="name"><img src="./img/header.png"></p>
 
             <p><ul class="menu">
-                <li class="item-1">HOME</li>
-                <li class="item-2">MUSIC</li>
-                <li class="item-3">STORE</li>
-                <li class="item-4">SIGN UP</li>
-                <li class="item-5">VOTE</li>
-             </ul></p>
+                <a class="item-1" href="./index.html"><li>HOME</li></a>
+                <a class="item-2" href="./music.html"><li>MUSIC</li></a>
+                <a class="item-3" href="http://smarturl.it/BillieEilishStore?utm_campaign=navigation&utm_medium=referral&utm_source=billieeilish.com"><li>STORE</li></a>
+                <a class="item-4" href="./sign-up.html"><li>SIGN UP</li></a>
+                <a class="item-5" href="http://headcount.org/billie"><li>VOTE</li></a>
+               </ul></p>
         </div>
 
     <!--######################################################## sign up #####################################################-->
@@ -33,9 +33,50 @@
 
             <h4 class="email-subscribtion">SUBSCRIBE TO EMAIL UPDATES FROM:</h4>
 
-            <span><p id="billie-eilish"><input type="checkbox" name="billie-eilish"></p></span>
+            <div class="billie-checkbox">
+            <span id="billie-eilish"><input type="checkbox" name="billie-eilish"></span>
 
             <span id="billie-label"><label for="billie-eilish">BILLIE EILISH</label></span>
+            </div>
+
+            <div class="submitting">
+            <span class="form-submit">By submitting this form, you agree to the </span>
+
+            <span><a class="music-group" href="http://privacypolicy.umusic.com/">UNIVERSAL MUSIC GROUP PRIVACY POLICY.</a></span>
+            </div>
+
+            <p class="center-button"><a class="subscribe-button" href="#">SUBSCRIBE</a></p>
         </div>
+
+        <!--###################################################### social media #######################################################-->
+
+        <p class="social-media">
+            <span><a href="https://www.facebook.com/billieeilish" target="_blank"><i class="fa fa-facebook" aria-hidden="true" fa-4x></i></a></span>
+    
+            <span><a href="https://twitter.com/billieeilish" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+    
+            <span><a href="https://www.instagram.com/billieeilish" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
+    
+            <span><a href="https://itunes.apple.com/us/artist/billie-eilish/1065981054" target="_blank"><i class="fa fa-music" aria-hidden="true"></i></a></span>
+    
+            <span><a href="https://www.youtube.com/billieeilish" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></span>
+        </p>
+
+    <!--###################################################### footer ###############################################################-->
+
+        <p class="footer">
+            <a class="span-1" href="http://www.interscope.com/"><span>2019 DARKROOM/INTERSCOOPE RECORDS</span></a>
+
+            <a class="span-2" href="https://privacypolicy.umusic.com/"><span class="span-2">PRIVACY POLICY</span></a>
+
+            <a class="span-3" href="https://privacypolicy.umusic.com/terms/"><span class="span-3">TERMS & CONDITIONS</span></a>
+
+            <a class="span-4" href="http://whymusicmatters.com/"><span class="span-4">WHY MUSIC MATTERS</span></a>
+
+            <a class="span-5" href="https://www.billieeilish.com/#"><span class="span-5">COOKIE CONSENT</span></a>
+
+            <a class="span-6" href="https://privacy.universalmusic.com/CCPA"><span class="span-6">DO NOT SELL MY PERSONAL INFORMATION</span></a>
+        </p>
+        
     </body>
 </html>

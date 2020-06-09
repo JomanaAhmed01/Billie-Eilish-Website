@@ -1,8 +1,9 @@
 html {
     background-color: #000000;
+    /* overflow-x: hidden; */
 }
 
-/*############################################################### header #######################################################*/
+/*############################################################# header ######################################################*/
 
 .name {
     text-align: center;
@@ -21,6 +22,7 @@ html {
     padding-bottom: 20px;
     padding-left: 280px;
     width: 780px;
+    text-decoration: none;
 }
 
 .menu li:hover {
@@ -29,8 +31,36 @@ html {
     transition: 0.4s;
 }
 
+.item-1 {
+    text-decoration: none;
+    color: rgb(115, 238, 115);
+}
+
+.item-2 {
+    text-decoration: none;
+    color: rgb(115, 238, 115);
+}
+
+.item-3 {
+    text-decoration: none;
+    color: rgb(115, 238, 115);
+}
+
+.item-4 {
+    text-decoration: none;
+    color: rgb(115, 238, 115);
+}
+
 .item-5 {
     color: red;
+    text-decoration: none;
+}
+
+.music {
+    color: rgb(115, 238, 115);
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+    font-size: 45px;
 }
 
 /*########################################################### sign up ##########################################################*/
@@ -50,6 +80,10 @@ html {
     text-align: center;
 }
 
+.billie-checkbox {
+    text-align: center;
+}
+
 #billie-eilish {
     text-align: center;
 }
@@ -57,4 +91,239 @@ html {
 #billie-label {
     color: #FFFFFF;
     text-align: center;
+    font-size: 12px;
+    font-family: "Arial";
+    font-weight: bold;
+}
+
+.submitting {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.form-submit {
+    color: #FFFFFF;
+    font-family: "Arial";
+    font-size: 13px;
+    text-align: center;
+}
+
+.music-group {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Arial";
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.music-group:hover {
+    text-decoration: underline;
+}
+
+.center-button {
+    text-align: center;
+}
+
+.subscribe-button {
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    text-align: center;
+    margin-left: 70px;
+    font-size: 35px;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    position: relative;
+    right: 35px;
+    top: 30px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+}
+
+.subscribe-button:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+    transition: 0.5s;
+}
+
+/*######################################################## social media ####################################################*/
+
+.social-media {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
+.fa-facebook {
+    color: rgb(115, 238, 115);
+    padding-right: 50px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.fa-facebook:hover {
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+
+.fa-twitter {
+    color: rgb(115, 238, 115);
+    padding-right: 50px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.fa-twitter:hover {
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+
+.fa-instagram {
+    color: rgb(115, 238, 115);
+    padding-right: 50px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.fa-instagram:hover {
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+
+.fa-music {
+    color: rgb(115, 238, 115);
+    padding-right: 50px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.fa-music:hover {
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+
+.fa-youtube {
+    color: rgb(115, 238, 115);
+    padding-right: 50px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.fa-youtube:hover {
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+
+/*############################################################# footer ######################################################*/
+
+.footer {
+    border-top: 1px solid rgb(51, 51, 51);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.span-1 {
+    color: grey;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.span-1:hover {
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.span-2 {
+    color: grey;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.span-2:hover {
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.span-3 {
+    color: grey;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;/
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.span-3:hover {
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.span-4 {
+    color: grey;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.span-4:hover {
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.span-5 {
+    color: grey;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.span-5:hover {
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.span-6 {
+    color: grey;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.span-6:hover {
+    color: #FFFFFF;
+    transition: 0.3s;
 }
