@@ -3,10 +3,15 @@ html {
     /* overflow-x: hidden; */
 }
 
+
 /*############################################################# header ######################################################*/
 
 .name {
     text-align: center;
+}
+
+.name-2 {
+    display: none;
 }
 
 .menu {
@@ -16,12 +21,11 @@ html {
     font-weight: bold;
     font-size: 15px;
     display: flex;
-    justify-content: space-around;
-    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-right: 150px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 280px;
-    width: 780px;
     text-decoration: none;
 }
 
@@ -34,33 +38,31 @@ html {
 .item-1 {
     text-decoration: none;
     color: rgb(115, 238, 115);
+    padding-left: 110px;
 }
 
 .item-2 {
     text-decoration: none;
     color: rgb(115, 238, 115);
+    padding-left: 110px;
 }
 
 .item-3 {
     text-decoration: none;
     color: rgb(115, 238, 115);
+    padding-left: 110px;
 }
 
 .item-4 {
     text-decoration: none;
     color: rgb(115, 238, 115);
+    padding-left: 110px;
 }
 
 .item-5 {
     color: red;
     text-decoration: none;
-}
-
-.music {
-    color: rgb(115, 238, 115);
-    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-    text-align: center;
-    font-size: 45px;
+    padding-left: 110px;
 }
 
 /*########################################################### sign up ##########################################################*/
@@ -123,6 +125,7 @@ html {
 
 .center-button {
     text-align: center;
+    size: 10vw;
 }
 
 .subscribe-button {
@@ -220,18 +223,16 @@ html {
 
 .footer {
     border-top: 1px solid rgb(51, 51, 51);
-    text-align: center;
     display: flex;
-    justify-content: center;
-    padding-top: 40px;
+    justify-content: space-around;
+    padding-top: 20px;
 }
 
 .span-1 {
     color: grey;
     font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
     text-align: center;
-    padding-bottom: 20px;
-    padding-right: 20px;
+    padding-right: 40px;
     font-size: 13px;
     cursor: pointer;
     font-weight: bold;
@@ -247,7 +248,6 @@ html {
     color: grey;
     font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
     text-align: center;
-    padding-bottom: 20px;
     padding-right: 20px;
     font-size: 13px;
     cursor: pointer;
@@ -263,8 +263,7 @@ html {
 .span-3 {
     color: grey;
     font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-    text-align: center;/
-    padding-bottom: 20px;
+    text-align: center;
     padding-right: 20px;
     font-size: 13px;
     cursor: pointer;
@@ -281,7 +280,6 @@ html {
     color: grey;
     font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
     text-align: center;
-    padding-bottom: 20px;
     padding-right: 20px;
     font-size: 13px;
     cursor: pointer;
@@ -298,7 +296,6 @@ html {
     color: grey;
     font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
     text-align: center;
-    padding-bottom: 20px;
     padding-right: 20px;
     font-size: 13px;
     cursor: pointer;
@@ -315,8 +312,6 @@ html {
     color: grey;
     font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
     text-align: center;
-    padding-bottom: 20px;
-    padding-right: 20px;
     font-size: 13px;
     cursor: pointer;
     font-weight: bold;
@@ -326,4 +321,124 @@ html {
 .span-6:hover {
     color: #FFFFFF;
     transition: 0.3s;
+}
+
+/*############################################################### media query #######################################################*/
+
+@media screen and (max-width: 1274px) {
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .span-6 {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .name-2 {
+        padding-left: 380px;
+        position: relative;
+        top: 40px;
+        right: 375px;
+        display: initial;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .name {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 0px;
+        top: 40px;
+        padding-bottom: 50px;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .fa-facebook {
+        font-size: 33px;
+    }
+
+    .fa-twitter {
+        font-size: 33px;
+    }
+
+    .fa-instagram {
+        font-size: 33px;
+    }
+
+    .fa-music {
+        font-size: 33px;
+    }
+
+    .fa-youtube {
+        font-size: 33px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        line-height: 10px;
+        font-size: 10px;
+        padding-left: 40px;
+    }
+
+    .span-1 {
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    .span-2 {
+        padding-bottom: 15px;
+    }
+
+    .span-3 {
+        padding-bottom: 15px;
+    }
+
+    .span-4 {
+        padding-bottom: 15px;
+    }
+
+    .span-5 {
+        padding-bottom: 6px;
+    }
+
+    .span-6 {
+        padding-bottom: 15px;
+        margin-right: 18px;
+    }
+}
+
+@media screen and (max-width: 486px) {
+    .fa-facebook {
+        font-size: 30px;
+    }
+
+    .fa-twitter {
+        font-size: 30px;
+    }
+
+    .fa-instagram {
+        font-size: 30px;
+    }
+
+    .fa-music {
+        font-size: 30px;
+    }
+
+    .fa-youtube {
+        font-size: 30px;
+    }
 }
