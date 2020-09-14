@@ -13,23 +13,16 @@ html {
 }
 
 .navbar {
-    border: solid green;
     display: flex;
     justify-content: center;
 }
 
 .menu {
-    border: solid yellow;
     color: rgb(115, 238, 115);
     list-style: none;
     font-family: sans-serif;
     font-weight: bold;
     font-size: 15px;
-    /* display: flex;
-    justify-content: flex-start; */
-    /* flex-wrap: wrap; */
-    /* padding-right: 275px;
-    padding-left: 275px; */
     margin-bottom: 30px;
     text-decoration: none;
 }
@@ -44,39 +37,30 @@ html {
     text-decoration: none;
     color: rgb(115, 238, 115);
     margin-right: 60px;
-    /* padding-left: 110px; */
 }
 
 .item-2 {
     text-decoration: none;
     color: rgb(115, 238, 115);
     margin-right: 60px;
-
-    /* padding-left: 110px; */
 }
 
 .item-3 {
     text-decoration: none;
     color: rgb(115, 238, 115);
     margin-right: 60px;
-
-    /* padding-left: 110px; */
 }
 
 .item-4 {
     text-decoration: none;
     color: rgb(115, 238, 115);
     margin-right: 60px;
-
-    /* padding-left: 110px; */
 }
 
 .item-5 {
     color: red;
     text-decoration: none;
     margin-right: 60px;
-
-    /* padding-left: 110px; */
 }
 
 .music {
@@ -102,8 +86,6 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* margin-right: 20px; */
-    /* margin-left: 20px; */
 }
 
 /*########################################################### Concerts ########################################################*/
@@ -1143,6 +1125,7 @@ html {
         position: relative;
         right: 0px;
         top: 40px;
+        left: 30px;
         padding-bottom: 50px;
         font-size: 20px;
         line-height: 30px;
