@@ -1214,13 +1214,6 @@ html {
         bottom: 50px;
     }
 
-    .tickets {
-        float: initial;
-        margin-right: initial;
-        position: relative;
-        top: 50px;
-    }
-
     .concert-2 {
         display: flex;
         flex-direction: column;
@@ -1245,13 +1238,6 @@ html {
         padding-left: initial;
         position: relative;
         bottom: 50px;
-    }
-
-    .tickets {
-        float: initial;
-        margin-right: initial;
-        position: relative;
-        top: 50px;
     }
 
     .concert-3 {
@@ -1280,13 +1266,6 @@ html {
         bottom: 50px;
     }
 
-    .tickets {
-        float: initial;
-        margin-right: initial;
-        position: relative;
-        top: 50px;
-    }
-
     .concert-4 {
         display: flex;
         flex-direction: column;
@@ -1311,13 +1290,6 @@ html {
         padding-left: initial;
         position: relative;
         bottom: 50px;
-    }
-
-    .tickets {
-        float: initial;
-        margin-right: initial;
-        position: relative;
-        top: 50px;
     }
 
     .concert-5 {
@@ -1350,8 +1322,11 @@ html {
     .tickets {
         padding: 20px;
         font-size: 30px;
+        float: initial;
+        margin-right: initial;
         position: relative;
-        top: 100%;
+        top: 100px;
+
     }
 
     .concert-6 {
@@ -1380,13 +1355,6 @@ html {
         bottom: 50px;
     }
 
-    .tickets {
-        float: initial;
-        margin-right: initial;
-        position: relative;
-        top: 50px;
-    }
-
     .concert-7 {
         display: flex;
         flex-direction: column;
@@ -1411,13 +1379,6 @@ html {
         padding-left: initial;
         position: relative;
         bottom: 50px;
-    }
-
-    .tickets {
-        float: initial;
-        margin-right: initial;
-        position: relative;
-        top: 50px;
     }
 
     .concert-8 {
@@ -1446,13 +1407,6 @@ html {
         bottom: 50px;
     }
 
-    .tickets {
-        float: initial;
-        margin-right: initial;
-        position: relative;
-        top: 50px;
-    }
-
     .concert-9 {
         display: flex;
         flex-direction: column;
@@ -1477,13 +1431,6 @@ html {
         padding-left: initial;
         position: relative;
         bottom: 50px;
-    }
-
-    .tickets {
-        float: initial;
-        margin-right: initial;
-        position: relative;
-        top: 50px;
     }
 
     .concert-10 {
@@ -1512,13 +1459,6 @@ html {
         bottom: 50px;
     }
 
-    .tickets {
-        float: initial;
-        margin-right: initial;
-        position: relative;
-        top: 50px;
-    }
-
     .concert-11 {
         display: flex;
         flex-direction: column;
@@ -1543,13 +1483,6 @@ html {
         padding-left: initial;
         position: relative;
         bottom: 50px;
-    }
-
-    .tickets {
-        float: initial;
-        margin-right: initial;
-        position: relative;
-        top: 50px;
     }
 
     .concert-12 {
@@ -1578,13 +1511,6 @@ html {
         bottom: 50px;
     }
 
-    .tickets {
-        float: initial;
-        margin-right: initial;
-        position: relative;
-        top: 50px;
-    }
-
     .concert-13 {
         display: flex;
         flex-direction: column;
@@ -1609,13 +1535,6 @@ html {
         padding-left: initial;
         position: relative;
         bottom: 50px;
-    }
-
-    .tickets {
-        float: initial;
-        margin-right: initial;
-        position: relative;
-        top: 50px;
     }
 
     .concert-14 {
@@ -1644,13 +1563,6 @@ html {
         bottom: 50px;
     }
 
-    .tickets {
-        float: initial;
-        margin-right: initial;
-        position: relative;
-        top: 50px;
-    }
-
     .concert-15 {
         display: flex;
         flex-direction: column;
@@ -1675,13 +1587,6 @@ html {
         padding-left: initial;
         position: relative;
         bottom: 50px;
-    }
-
-    .tickets {
-        float: initial;
-        margin-right: initial;
-        position: relative;
-        top: 50px;
     }
 }
 
