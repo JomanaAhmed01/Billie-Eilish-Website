@@ -27,12 +27,12 @@
 
 <div align="center"><a name="menu"></a>
 
-![ScreenShot](https://github.com/JomanaAhmed01/JomanaAhmed01/blob/main/Images/1.jpg)
-![ScreenShot](https://github.com/JomanaAhmed01/JomanaAhmed01/blob/main/Images/2.jpg)
-![ScreenShot](https://github.com/JomanaAhmed01/JomanaAhmed01/blob/main/Images/3.jpg)
-![ScreenShot](https://github.com/JomanaAhmed01/JomanaAhmed01/blob/main/Images/4.jpg)
-![ScreenShot](https://github.com/JomanaAhmed01/JomanaAhmed01/blob/main/Images/5.jpg)
-![ScreenShot](https://github.com/JomanaAhmed01/JomanaAhmed01/blob/main/Images/6.jpg)
+![ScreenShot](https://github.com/JomanaAhmed01/Billie-Eilish-Website/blob/Main-Page/img/1.png)
+![ScreenShot](https://github.com/JomanaAhmed01/Billie-Eilish-Website/blob/Main-Page/img/2.jpg)
+![ScreenShot](https://github.com/JomanaAhmed01/Billie-Eilish-Website/blob/Main-Page/img/3.png)
+![ScreenShot](https://github.com/JomanaAhmed01/Billie-Eilish-Website/blob/Main-Page/img/4.png)
+![ScreenShot](https://github.com/JomanaAhmed01/Billie-Eilish-Website/blob/Main-Page/img/5.png)
+![ScreenShot](https://github.com/JomanaAhmed01/Billie-Eilish-Website/blob/Main-Page/img/6.png)
 </div>
 
 The Home Page consists of 4 main sections:
