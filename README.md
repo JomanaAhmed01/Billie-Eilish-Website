@@ -1,4 +1,6 @@
 <h1 align="center">
+  <img title="Billie Eilish" src="https://github.com/JomanaAhmed01/Billie-Eilish-Website/blob/Main-Page/img/logo.png" alt="NETFLIX Logo" width="100" />
+  <br>
   Billie Eilish Website Clone Built Using HTML & CSS
 </h1>
 
