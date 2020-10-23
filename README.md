@@ -7,6 +7,10 @@
 <p><font size="3">
   This is a clone of the singer Billie Eilish website built using <strong><em>HTML & CSS</em></strong>, It's not a replica, and it doesn't have all the features of Billie Eilish website. it's a similar version of Billie Eilish Website with my own design touch, showing my abilities in HTML & CSS to build something advanced like Billie Eilsh Website. It contains the home page.
 </p>
+  
+  # Live Demo 
+
+You can have a quick look at the live demo of the website here: https://jomanaahmed01.github.io/Billie-Eilish-Website/
 
 ## Table of Contents
 
