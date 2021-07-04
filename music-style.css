@@ -1,0 +1,510 @@
+html {
+    background-color: #000000;
+}
+
+/*############################################################# Header ######################################################*/
+
+.name {
+    text-align: center;
+}
+
+.name-2 {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .name-2 {
+        display: initial;
+    }
+}
+
+.menu {
+    color: rgb(115, 238, 115);
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+.menu li:hover {
+    cursor: pointer;
+    color: #FFFFFF;
+    transition: 0.4s;
+}
+
+.item-1 {
+    text-decoration: none;
+    color: rgb(115, 238, 115);
+    padding-left: 110px;
+}
+
+.item-2 {
+    text-decoration: none;
+    color: rgb(115, 238, 115);
+    padding-left: 110px;
+}
+
+.item-3 {
+    text-decoration: none;
+    color: rgb(115, 238, 115);
+    padding-left: 110px;
+}
+
+.item-4 {
+    text-decoration: none;
+    color: rgb(115, 238, 115);
+    padding-left: 110px;
+}
+
+.item-5 {
+    color: red;
+    text-decoration: none;
+    padding-left: 110px;
+}
+
+.music {
+    color: rgb(115, 238, 115);
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+    font-size: 45px;
+}
+
+/*######################################################## Music List ########################################################*/
+
+.row-list {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.no-time-to-die {
+    width: 50%;
+    height: 50%;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+
+.no-time-to-die:hover {
+    color: #000000;
+    opacity: 30%;
+    transition: 0.5s;
+}
+
+.when-i-was-older {
+    width: 50%;
+    height: 50%;
+    padding-bottom: 20px;
+}
+
+.when-i-was-older:hover {
+    color: #000000;
+    opacity: 30%;
+    transition: 0.5s;
+}
+
+.everything-i-wanted {
+    padding-right: 20px;
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.everything-i-wanted:hover {
+    color: #000000;
+    opacity: 30%;
+    transition: 0.5s;
+}
+
+.come-out-and-play {
+    width: 50%;
+    height: 50%;
+    padding-bottom: 20px;
+}
+
+.come-out-and-play:hover {
+    color: #000000;
+    opacity: 30%;
+    transition: 0.5s;
+}
+
+.bitches-broken-hearts {
+    padding-right: 20px;
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.bitches-broken-hearts:hover {
+    color: #000000;
+    opacity: 30%;
+    transition: 0.5s;
+}
+
+.bury-a-friend {
+    width: 50%;
+    height: 50%;
+    padding-bottom: 20px;
+}
+
+.bury-a-friend:hover {
+    color: #000000;
+    opacity: 30%;
+    transition: 0.5s;
+}
+
+.my-future {
+    padding-right: 20px;
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.my-future:hover {
+    color: #000000;
+    opacity: 30%;
+    transition: 0.5s;
+}
+
+.copycat {
+    width: 50%;
+    height: 50%;
+    padding-bottom: 20px;
+}
+
+.copycat:hover {
+    color: #000000;
+    opacity: 30%;
+    transition: 0.5s;
+}
+
+/*######################################################## Social Media ####################################################*/
+
+.social-media {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+.fa-facebook {
+    color: rgb(115, 238, 115);
+    padding-right: 50px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.fa-facebook:hover {
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+
+.fa-twitter {
+    color: rgb(115, 238, 115);
+    padding-right: 50px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.fa-twitter:hover {
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+
+.fa-instagram {
+    color: rgb(115, 238, 115);
+    padding-right: 50px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.fa-instagram:hover {
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+
+.fa-music {
+    color: rgb(115, 238, 115);
+    padding-right: 50px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.fa-music:hover {
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+
+.fa-youtube {
+    color: rgb(115, 238, 115);
+    padding-right: 50px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.fa-youtube:hover {
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+
+/*############################################################# Footer ######################################################*/
+
+.footer {
+    border-top: 1px solid rgb(51, 51, 51);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.span-1 {
+    color: grey;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+    padding-right: 40px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.span-1:hover {
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.span-2 {
+    color: grey;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+    padding-right: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.span-2:hover {
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.span-3 {
+    color: grey;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+    padding-right: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.span-3:hover {
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.span-4 {
+    color: grey;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+    padding-right: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.span-4:hover {
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.span-5 {
+    color: grey;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+    padding-right: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.span-5:hover {
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.span-6 {
+    color: grey;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.span-6:hover {
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+/*################################################################# Media Query ###########################################################*/
+
+@media screen and (max-width: 1920px) {
+    .music-list img {
+        width: 35%;
+        height: 35%;
+    }
+
+    .music-list {
+        margin-left: 320px;
+    }
+}
+
+@media screen and (max-width: 1403px) {
+    .music-list img {
+       width: 45%;
+    }
+}
+
+@media screen and (max-width: 1274px) {
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1194px) {
+    .span-6 {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1155px) {
+    .song-1 {
+        margin-left: 240px;
+        
+    }
+
+    .song-2 {
+        padding-left: 310px;
+    }
+
+    .song-3 {
+        padding-left: 310px;
+    }
+
+    .song-4 {
+        padding-left: 310px;
+    }
+
+    .song-5 {
+        padding-left: 310px;
+    }
+
+    .song-6 {
+        padding-left: 310px;
+    }
+
+    .song-7 {
+        padding-left: 310px;
+    }
+
+    .song-8 {
+        padding-left: 310px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .name-2 {
+        padding-left: 380px;
+        position: relative;
+        top: 40px;
+        right: 375px;
+        display: initial;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .name {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 0px;
+        top: 40px;
+        padding-bottom: 50px;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .fa-facebook {
+        font-size: 33px;
+    }
+
+    .fa-twitter {
+        font-size: 33px;
+    }
+
+    .fa-instagram {
+        font-size: 33px;
+    }
+
+    .fa-music {
+        font-size: 33px;
+    }
+
+    .fa-youtube {
+        font-size: 33px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        line-height: 10px;
+        font-size: 10px;
+        padding-left: 30px;
+    }
+
+    .span-1 {
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    .span-2 {
+        padding-bottom: 15px;
+    }
+
+    .span-3 {
+        padding-bottom: 15px;
+    }
+
+    .span-4 {
+        padding-bottom: 15px;
+    }
+
+    .span-5 {
+        padding-bottom: 6px;
+    }
+
+    .span-6 {
+        padding-bottom: 15px;
+        margin-right: 35px;
+    }
+}

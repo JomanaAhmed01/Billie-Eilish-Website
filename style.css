@@ -1,0 +1,1611 @@
+html {
+    background-color: #000000;
+}
+
+/*############################################################# Header ######################################################*/
+
+.name {
+    text-align: center;
+}
+
+.name-2 {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    color: rgb(115, 238, 115);
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.menu :hover {
+    cursor: pointer;
+    color: #FFFFFF;
+    transition: 0.4s;
+}
+
+.item-1 {
+    text-decoration: none;
+    color: rgb(115, 238, 115);
+    margin-right: 60px;
+}
+
+.item-2 {
+    text-decoration: none;
+    color: rgb(115, 238, 115);
+    margin-right: 60px;
+}
+
+.item-3 {
+    text-decoration: none;
+    color: rgb(115, 238, 115);
+    margin-right: 60px;
+}
+
+.item-4 {
+    text-decoration: none;
+    color: rgb(115, 238, 115);
+    margin-right: 60px;
+}
+
+.item-5 {
+    color: red;
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.music {
+    color: rgb(115, 238, 115);
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+    font-size: 45px;
+}
+
+.img-red {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.img-red img {
+    width: 700px;
+    height: 1050;
+}
+
+.song-name {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*########################################################### Concerts ########################################################*/
+
+.concert-1 {
+    border-top: 1px solid rgb(31, 31, 31);
+    border-bottom: 1px solid rgb(31, 31, 31);
+    padding-top: 80px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.concert-date {
+    position: relative;
+    top: 10px;
+    color: #FFFFFF;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+}
+
+.concert-country {
+    color: #FFFFFF;
+    padding-left: 15px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.concert-country:hover {
+    text-decoration: underline;
+}
+
+.concert-location {
+    padding-left: 75px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.concert-location:hover {
+    text-decoration: underline;
+}
+
+.tickets {
+    background-color: rgb(115, 238, 115);
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    padding: 13px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    margin-right: 40px;
+}
+
+
+.concert-2 {
+    border-top: 1px solid rgb(31, 31, 31);
+    border-bottom: 1px solid rgb(31, 31, 31);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.concert-date {
+    position: relative;
+    top: 10px;
+    color: #FFFFFF;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+}
+
+.concert-country {
+    color: #FFFFFF;
+    padding-left: 15px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.concert-country:hover {
+    text-decoration: underline;
+}
+
+.concert-location {
+    padding-left: 75px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.concert-location:hover {
+    text-decoration: underline;
+}
+
+.tickets {
+    background-color: rgb(115, 238, 115);
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    padding: 13px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    margin-right: 40px;
+}
+
+
+.concert-3 {
+    border-top: 1px solid rgb(31, 31, 31);
+    border-bottom: 1px solid rgb(31, 31, 31);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.concert-date {
+    position: relative;
+    top: 10px;
+    color: #FFFFFF;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+}
+
+.concert-country {
+    color: #FFFFFF;
+    padding-left: 15px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.concert-country:hover {
+    text-decoration: underline;
+}
+
+.concert-location {
+    padding-left: 75px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.concert-location:hover {
+    text-decoration: underline;
+}
+
+.tickets {
+    background-color: rgb(115, 238, 115);
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    padding: 13px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    margin-right: 40px;
+}
+
+
+.concert-4 {
+    border-top: 1px solid rgb(31, 31, 31);
+    border-bottom: 1px solid rgb(31, 31, 31);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.concert-date {
+    position: relative;
+    top: 10px;
+    color: #FFFFFF;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+}
+
+.concert-country {
+    color: #FFFFFF;
+    padding-left: 15px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.concert-country:hover {
+    text-decoration: underline;
+}
+
+.concert-location {
+    padding-left: 75px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.concert-location:hover {
+    text-decoration: underline;
+}
+
+.tickets {
+    background-color: rgb(115, 238, 115);
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    padding: 13px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    margin-right: 40px;
+}
+
+
+.concert-5 {
+    border-top: 1px solid rgb(31, 31, 31);
+    border-bottom: 1px solid rgb(31, 31, 31);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.concert-date {
+    position: relative;
+    top: 10px;
+    color: #FFFFFF;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+}
+
+.concert-country {
+    color: #FFFFFF;
+    padding-left: 15px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.concert-country:hover {
+    text-decoration: underline;
+}
+
+.concert-location {
+    padding-left: 75px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.concert-location:hover {
+    text-decoration: underline;
+}
+
+.tickets {
+    background-color: rgb(115, 238, 115);
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    padding: 13px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    margin-right: 40px;
+}
+
+
+.concert-6 {
+    border-top: 1px solid rgb(31, 31, 31);
+    border-bottom: 1px solid rgb(31, 31, 31);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.concert-date {
+    position: relative;
+    top: 10px;
+    color: #FFFFFF;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+}
+
+.concert-country {
+    color: #FFFFFF;
+    padding-left: 15px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.concert-country:hover {
+    text-decoration: underline;
+}
+
+.concert-location {
+    padding-left: 75px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.concert-location:hover {
+    text-decoration: underline;
+}
+
+.tickets {
+    background-color: rgb(115, 238, 115);
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    padding: 13px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    margin-right: 40px;
+}
+
+
+.concert-7 {
+    border-top: 1px solid rgb(31, 31, 31);
+    border-bottom: 1px solid rgb(31, 31, 31);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.concert-date {
+    position: relative;
+    top: 10px;
+    color: #FFFFFF;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+}
+
+.concert-country {
+    color: #FFFFFF;
+    padding-left: 15px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.concert-country:hover {
+    text-decoration: underline;
+}
+
+.concert-location {
+    padding-left: 75px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.concert-location:hover {
+    text-decoration: underline;
+}
+
+.tickets {
+    background-color: rgb(115, 238, 115);
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    padding: 13px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    margin-right: 40px;
+}
+
+
+.concert-8 {
+    border-top: 1px solid rgb(31, 31, 31);
+    border-bottom: 1px solid rgb(31, 31, 31);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.concert-date {
+    position: relative;
+    top: 10px;
+    color: #FFFFFF;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+}
+
+.concert-country {
+    color: #FFFFFF;
+    padding-left: 15px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.concert-country:hover {
+    text-decoration: underline;
+}
+
+.concert-location {
+    padding-left: 75px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.concert-location:hover {
+    text-decoration: underline;
+}
+
+.tickets {
+    background-color: rgb(115, 238, 115);
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    padding: 13px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    margin-right: 40px;
+}
+
+
+.concert-9 {
+    border-top: 1px solid rgb(31, 31, 31);
+    border-bottom: 1px solid rgb(31, 31, 31);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.concert-date {
+    position: relative;
+    top: 10px;
+    color: #FFFFFF;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+}
+
+.concert-country {
+    color: #FFFFFF;
+    padding-left: 15px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.concert-country:hover {
+    text-decoration: underline;
+}
+
+.concert-location {
+    padding-left: 75px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.concert-location:hover {
+    text-decoration: underline;
+}
+
+.tickets {
+    background-color: rgb(115, 238, 115);
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    padding: 13px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    margin-right: 40px;
+}
+
+
+.concert-10 {
+    border-top: 1px solid rgb(31, 31, 31);
+    border-bottom: 1px solid rgb(31, 31, 31);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.concert-date {
+    position: relative;
+    top: 10px;
+    color: #FFFFFF;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+}
+
+.concert-country {
+    color: #FFFFFF;
+    padding-left: 15px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.concert-country:hover {
+    text-decoration: underline;
+}
+
+.concert-location {
+    padding-left: 75px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.concert-location:hover {
+    text-decoration: underline;
+}
+
+.tickets {
+    background-color: rgb(115, 238, 115);
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    padding: 13px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    margin-right: 40px;
+}
+
+.concert-11 {
+    border-top: 1px solid rgb(31, 31, 31);
+    border-bottom: 1px solid rgb(31, 31, 31);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.concert-date {
+    position: relative;
+    top: 10px;
+    color: #FFFFFF;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+}
+
+.concert-country {
+    color: #FFFFFF;
+    padding-left: 15px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.concert-country:hover {
+    text-decoration: underline;
+}
+
+.concert-location {
+    padding-left: 75px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.concert-location:hover {
+    text-decoration: underline;
+}
+
+.tickets {
+    background-color: rgb(115, 238, 115);
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    padding: 13px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    margin-right: 40px;
+}
+
+.concert-12 {
+    border-top: 1px solid rgb(31, 31, 31);
+    border-bottom: 1px solid rgb(31, 31, 31);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.concert-date {
+    position: relative;
+    top: 10px;
+    color: #FFFFFF;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+}
+
+.concert-country {
+    color: #FFFFFF;
+    padding-left: 15px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.concert-country:hover {
+    text-decoration: underline;
+}
+
+.concert-location {
+    padding-left: 75px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.concert-location:hover {
+    text-decoration: underline;
+}
+
+.tickets {
+    background-color: rgb(115, 238, 115);
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    padding: 13px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    margin-right: 40px;
+}
+
+.concert-13 {
+    border-top: 1px solid rgb(31, 31, 31);
+    border-bottom: 1px solid rgb(31, 31, 31);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.concert-date {
+    position: relative;
+    top: 10px;
+    color: #FFFFFF;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+}
+
+.concert-country {
+    color: #FFFFFF;
+    padding-left: 15px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.concert-country:hover {
+    text-decoration: underline;
+}
+
+.concert-location {
+    padding-left: 75px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.concert-location:hover {
+    text-decoration: underline;
+}
+
+.tickets {
+    background-color: rgb(115, 238, 115);
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    padding: 13px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    margin-right: 40px;
+}
+
+.concert-14 {
+    border-top: 1px solid rgb(31, 31, 31);
+    border-bottom: 1px solid rgb(31, 31, 31);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.concert-date {
+    position: relative;
+    top: 10px;
+    color: #FFFFFF;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+}
+
+.concert-country {
+    color: #FFFFFF;
+    padding-left: 15px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.concert-country:hover {
+    text-decoration: underline;
+}
+
+.concert-location {
+    padding-left: 75px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.concert-location:hover {
+    text-decoration: underline;
+}
+
+.tickets {
+    background-color: rgb(115, 238, 115);
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    padding: 13px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    margin-right: 40px;
+}
+
+.concert-15 {
+    border-top: 1px solid rgb(31, 31, 31);
+    border-bottom: 1px solid rgb(31, 31, 31);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.concert-date {
+    position: relative;
+    top: 10px;
+    color: #FFFFFF;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+}
+
+.concert-country {
+    color: #FFFFFF;
+    padding-left: 15px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.concert-country:hover {
+    text-decoration: underline;
+}
+
+.concert-location {
+    padding-left: 75px;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.concert-location:hover {
+    text-decoration: underline;
+}
+
+.tickets {
+    background-color: rgb(115, 238, 115);
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    padding: 13px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    margin-right: 40px;
+}
+
+.tickets:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+    transition: 0.5s;
+}
+
+/*########################################################### Social Media #########################################################*/
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+.fa-facebook {
+    color: rgb(115, 238, 115);
+    padding-right: 50px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.fa-facebook:hover {
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+
+.fa-twitter {
+    color: rgb(115, 238, 115);
+    padding-right: 50px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.fa-twitter:hover {
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+
+.fa-instagram {
+    color: rgb(115, 238, 115);
+    padding-right: 50px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.fa-instagram:hover {
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+
+.fa-music {
+    color: rgb(115, 238, 115);
+    padding-right: 50px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.fa-music:hover {
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+
+.fa-youtube {
+    color: rgb(115, 238, 115);
+    padding-right: 50px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.fa-youtube:hover {
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+
+/*############################################################# Footer #########################################################*/
+
+.footer {
+    border-top: 1px solid rgb(51, 51, 51);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.span-1 {
+    color: grey;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+    padding-right: 40px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.span-1:hover {
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.span-2 {
+    color: grey;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+    padding-right: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.span-2:hover {
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.span-3 {
+    color: grey;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+    padding-right: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.span-3:hover {
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.span-4 {
+    color: grey;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+    padding-right: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.span-4:hover {
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.span-5 {
+    color: grey;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+    padding-right: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.span-5:hover {
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.span-6 {
+    color: grey;
+    font-family: "Futura-Book","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.span-6:hover {
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+/*############################################################# Media Query ####################################################*/
+
+@media screen and (max-width: 1274px) {
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .span-6 {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .name-2 {
+        position: relative;
+        top: 40px;
+        display: initial;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .name {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 0px;
+        top: 40px;
+        left: 30px;
+        padding-bottom: 50px;
+        font-size: 40px;
+        line-height: 55px;
+        text-align: center;
+    }
+
+    .fa-facebook {
+        font-size: 73px;
+    }
+
+    .fa-twitter {
+        font-size: 73px;
+    }
+
+    .fa-instagram {
+        font-size: 73px;
+    }
+
+    .fa-music {
+        font-size: 73px;
+    }
+
+    .fa-youtube {
+        font-size: 73px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        line-height: 40px;
+        font-size: 10px;
+        padding-left: 40px;
+    }
+
+    .span-1 {
+        padding-top: 20px;
+        padding-bottom: 15px;
+        font-size: 25px;
+    }
+
+    .span-2 {
+        padding-bottom: 15px;
+        font-size: 25px;
+    }
+
+    .span-3 {
+        padding-bottom: 15px;
+        font-size: 25px;
+    }
+
+    .span-4 {
+        padding-bottom: 15px;
+        font-size: 25px;
+    }
+
+    .span-5 {
+        padding-bottom: 6px;
+        font-size: 25px;
+    }
+
+    .span-6 {
+        padding-bottom: 15px;
+        margin-right: 15px;
+        font-size: 25px;
+    }
+
+    .concert-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: initial;
+    }
+
+    .concert-1 > * {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .concert-date {
+        position: initial;
+    }
+
+    .concert-country {
+        padding-left: initial;
+    }
+
+    .concert-location {
+        padding-left: initial;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .concert-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: initial;
+    }
+
+    .concert-2 > * {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .concert-date {
+        position: initial;
+    }
+
+    .concert-country {
+        padding-left: initial;
+    }
+
+    .concert-location {
+        padding-left: initial;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .concert-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: initial;
+    }
+
+    .concert-3 > * {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .concert-date {
+        position: initial;
+    }
+
+    .concert-country {
+        padding-left: initial;
+    }
+
+    .concert-location {
+        padding-left: initial;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .concert-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: initial;
+    }
+
+    .concert-4 > * {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .concert-date {
+        position: initial;
+    }
+
+    .concert-country {
+        padding-left: initial;
+    }
+
+    .concert-location {
+        padding-left: initial;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .concert-5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: initial;
+    }
+
+    .concert-5 > * {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .concert-date {
+        position: initial;
+        font-size: 40px;
+    }
+
+    .concert-country {
+        padding-left: initial;
+        font-size: 40px;
+    }
+
+    .concert-location {
+        padding-left: initial;
+        font-size: 40px;
+    }
+
+    .tickets {
+        padding: 20px;
+        font-size: 30px;
+        float: initial;
+        margin-right: initial;
+        position: relative;
+        top: 100px;
+
+    }
+
+    .concert-6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: initial;
+    }
+
+    .concert-6 > * {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .concert-date {
+        position: initial;
+    }
+
+    .concert-country {
+        padding-left: initial;
+    }
+
+    .concert-location {
+        padding-left: initial;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .concert-7 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: initial;
+    }
+
+    .concert-7 > * {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .concert-date {
+        position: initial;
+    }
+
+    .concert-country {
+        padding-left: initial;
+    }
+
+    .concert-location {
+        padding-left: initial;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .concert-8 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: initial;
+    }
+
+    .concert-8 > * {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .concert-date {
+        position: initial;
+    }
+
+    .concert-country {
+        padding-left: initial;
+    }
+
+    .concert-location {
+        padding-left: initial;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .concert-9 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: initial;
+    }
+
+    .concert-9 > * {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .concert-date {
+        position: initial;
+    }
+
+    .concert-country {
+        padding-left: initial;
+    }
+
+    .concert-location {
+        padding-left: initial;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .concert-10 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: initial;
+    }
+
+    .concert-10 > * {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .concert-date {
+        position: initial;
+    }
+
+    .concert-country {
+        padding-left: initial;
+    }
+
+    .concert-location {
+        padding-left: initial;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .concert-11 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: initial;
+    }
+
+    .concert-11 > * {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .concert-date {
+        position: initial;
+    }
+
+    .concert-country {
+        padding-left: initial;
+    }
+
+    .concert-location {
+        padding-left: initial;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .concert-12 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: initial;
+    }
+
+    .concert-12 > * {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .concert-date {
+        position: initial;
+    }
+
+    .concert-country {
+        padding-left: initial;
+    }
+
+    .concert-location {
+        padding-left: initial;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .concert-13 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: initial;
+    }
+
+    .concert-13 > * {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .concert-date {
+        position: initial;
+    }
+
+    .concert-country {
+        padding-left: initial;
+    }
+
+    .concert-location {
+        padding-left: initial;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .concert-14 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: initial;
+    }
+
+    .concert-14 > * {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .concert-date {
+        position: initial;
+    }
+
+    .concert-country {
+        padding-left: initial;
+    }
+
+    .concert-location {
+        padding-left: initial;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .concert-15 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: initial;
+    }
+
+    .concert-15 > * {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .concert-date {
+        position: initial;
+    }
+
+    .concert-country {
+        padding-left: initial;
+    }
+
+    .concert-location {
+        padding-left: initial;
+        position: relative;
+        bottom: 50px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .img-red img {
+        width: 92%;
+    }
+}
+
+@media screen and (max-width: 599px) {
+
+    .social-media {
+        padding-left: 70px;
+    }
+}
