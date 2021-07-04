@@ -5,18 +5,14 @@
 </h1>
 
 <p><font size="3">
-  This is a clone of the singer Billie Eilish website built using <strong><em>HTML & CSS</em></strong>, It's not a replica, and it doesn't have all the features of Billie Eilish website. it's a similar version of Billie Eilish Website with my own design touch, showing my abilities in HTML & CSS to build something advanced like Billie Eilsh Website. It contains the home page.
+  This is a clone of the singer Billie Eilish website built using <strong><em>HTML & CSS</em></strong>, It's not a replica, and it doesn't have all the features of Billie Eilish website. it's a similar version of Billie Eilish Website with my own design touch, showing my abilities in HTML & CSS to build something advanced like Billie Eilsh Website. It contains the home page, sign-up page & music page.
 </p>
-
-<strong><em>Take a look at the live demo of the website here:</em></strong> https://jomanaahmed01.github.io/Billie-Eilish-Website/
 
 ## Table of Contents
 
 - [Project Walk-Through](#project-walk-through)
   - [Home Page](#home-page)
-- [Live Demo](#live-demo)
 - [Technology Used](#technology-used)
-- [How To Use](#how-to-use)
 - [Author](#author)
 - [Show Your Support](#show-your-support)
 - [Acknowledgments](#acknowledgments)
@@ -58,10 +54,6 @@ It contains useful links users may need it.
 
 
 ***### The page is fully responsive to all mobile devices even the small ones. ###***
-
-# Live Demo 
-
-You can have a quick look at the live demo of the website here: https://jomanaahmed01.github.io/Billie-Eilish-Website/
 
 # Technology Used
 
