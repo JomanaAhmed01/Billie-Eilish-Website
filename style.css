@@ -27,7 +27,7 @@ html {
     text-decoration: none;
 }
 
-.menu li:hover {
+.menu :hover {
     cursor: pointer;
     color: #FFFFFF;
     transition: 0.4s;
@@ -907,6 +907,12 @@ html {
     font-weight: bold;
     float: right;
     margin-right: 40px;
+}
+
+.tickets:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+    transition: 0.5s;
 }
 
 /*########################################################### Social Media #########################################################*/
