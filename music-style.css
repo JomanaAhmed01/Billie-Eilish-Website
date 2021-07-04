@@ -12,6 +12,12 @@ html {
     display: none;
 }
 
+@media screen and (max-width: 1024px) {
+    .name-2 {
+        display: initial;
+    }
+}
+
 .menu {
     color: rgb(115, 238, 115);
     list-style: none;
@@ -72,102 +78,110 @@ html {
 
 /*######################################################## Music List ########################################################*/
 
-.song-1 {
-    padding-left: 60px;
+.row-list {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.no-time-to-die {
+    width: 50%;
+    height: 50%;
     padding-right: 20px;
     padding-bottom: 20px;
 }
 
-.song-1:hover {
-    opacity: 35%;
-    transition: 0.4s;
+
+.no-time-to-die:hover {
+    color: #000000;
+    opacity: 30%;
+    transition: 0.5s;
 }
 
-.song-2 {
-    padding-right: 30px;
+.when-i-was-older {
+    width: 50%;
+    height: 50%;
     padding-bottom: 20px;
-    width: 35%;
-    height: 35%;
 }
 
-.song-2:hover {
-    opacity: 35%;
-    transition: 0.4s;
+.when-i-was-older:hover {
+    color: #000000;
+    opacity: 30%;
+    transition: 0.5s;
 }
 
-.song-3 {
-    padding-left: 60px;
+.everything-i-wanted {
     padding-right: 20px;
+    width: 50%;
     padding-bottom: 20px;
-    width: 25%;
-    height: 25%;
 }
 
-.song-3:hover {
-    opacity: 35%;
-    transition: 0.4s;
+.everything-i-wanted:hover {
+    color: #000000;
+    opacity: 30%;
+    transition: 0.5s;
 }
 
-.song-4 {
-    padding-right: 30px;
+.come-out-and-play {
+    width: 50%;
+    height: 50%;
     padding-bottom: 20px;
-    width: 25%;
-    height: 25%;
 }
 
-.song-4:hover {
-    opacity: 35%;
-    transition: 0.4s;
+.come-out-and-play:hover {
+    color: #000000;
+    opacity: 30%;
+    transition: 0.5s;
 }
 
-.song-5 {
-    padding-left: 60px;
+.bitches-broken-hearts {
     padding-right: 20px;
+    width: 50%;
     padding-bottom: 20px;
-    width: 25%;
-    height: 25%;
 }
 
-.song-5:hover {
-    opacity: 35%;
-    transition: 0.4s;
+.bitches-broken-hearts:hover {
+    color: #000000;
+    opacity: 30%;
+    transition: 0.5s;
 }
 
-.song-6 {
-    padding-right: 30px;
+.bury-a-friend {
+    width: 50%;
+    height: 50%;
     padding-bottom: 20px;
-    width: 25%;
-    height: 25%;
 }
 
-.song-6:hover {
-    opacity: 35%;
-    transition: 0.4s;
+.bury-a-friend:hover {
+    color: #000000;
+    opacity: 30%;
+    transition: 0.5s;
 }
 
-.song-7 {
-    padding-left: 60px;
+.my-future {
     padding-right: 20px;
+    width: 50%;
     padding-bottom: 20px;
-    width: 25%;
-    height: 25%;
 }
 
-.song-7:hover {
-    opacity: 35%;
-    transition: 0.4s;
+.my-future:hover {
+    color: #000000;
+    opacity: 30%;
+    transition: 0.5s;
 }
 
-.song-8 {
-    padding-right: 30px;
+.copycat {
+    width: 50%;
+    height: 50%;
     padding-bottom: 20px;
-    width: 25%;
-    height: 25%;
 }
 
-.song-8:hover {
-    opacity: 35%;
-    transition: 0.4s;
+.copycat:hover {
+    color: #000000;
+    opacity: 30%;
+    transition: 0.5s;
 }
 
 /*######################################################## Social Media ####################################################*/
