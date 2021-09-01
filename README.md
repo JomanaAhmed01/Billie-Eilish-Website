@@ -126,6 +126,11 @@ It contains useful links users may need it.
 
 ***### The page is fully responsive to all mobile devices even the small ones. ###***
 
+# Live Demo
+
+***Take a look on the live version here:*** https://bit.ly/billie-eilish-website-live01 :octocat: :heart_eyes: 
+
+
 # Technology Used
 
 I have built this project using the following tools & techniques:
